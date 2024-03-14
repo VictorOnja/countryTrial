@@ -1,0 +1,46 @@
+body {
+  font-family: "myPoppins", Arial, Helvetica, sans-serif;
+  background-color: rgba(96, 102, 208, 1);
+  background-image: url("../images/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: 100px;
+}
+
+#root {
+  margin: auto;
+}
+
+body,
+button,
+img {
+  width: 100%;
+}
+
+#root {
+  max-width: 464px;
+  padding: 8px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  height: 100%;
+}
+
+@media (min-width: 350px) {
+  #root {
+    padding: 16px;
+  }
+}

@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "myPoppins";
+    src: url("../fonts/poppins-normal.woff2"),
+         url("../fonts/poppins-normal.woff");
+         font-weight: 400;
+}
+
+@font-face {
+    font-family: "myPoppins";
+    src: url("../fonts/poppins-medium.woff2"),
+         url("../fonts/poppins-medium.woff");
+         font-weight: 500;
+}
+
+@font-face {
+    font-family: "myPoppins";
+    src: url("../fonts/poppins-semibold.woff2"),
+         url("../fonts/poppins-semibold.woff");
+         font-weight: 600;
+}
+
+@font-face {
+    font-family: "myPoppins";
+    src: url("../fonts/poppins-bold.woff2"),
+         url("../fonts/poppins-bold.woff");
+         font-weight: 700;
+}
+
+@font-face {
+    font-family: "myMontserrat";
+    src: url("../fonts/montserrat-semibold.woff2"),
+         url("../fonts/montserrat-semibold.woff");
+    font-weight: 600;
+}

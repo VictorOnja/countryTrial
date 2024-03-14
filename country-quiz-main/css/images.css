@@ -1,0 +1,53 @@
+.adventure,
+picture {
+  display: none;
+}
+
+picture {
+  position: relative;
+}
+
+.adventure {
+  width: 100%;
+  position: absolute;
+}
+
+.response-icon,
+.incorrect-icon {
+  max-width: 20px;
+  margin-left: auto;
+  margin-right: 19px;
+}
+
+.flag {
+  max-width: 32px;
+  filter: drop-shadow(0px 4px 24px rgba(0, 0, 0, 0.1));
+}
+
+@media (min-width: 350px) {
+  picture,
+  .adventure {
+    display: block;
+  }
+
+  .flag {
+    max-width: 84px;
+  }
+
+  picture {
+    width: 100%;
+    max-width: 162px;
+  }
+
+  .adventure {
+    top: 55%;
+    right: 0;
+    max-width: 162px;
+  }
+}
+
+@media (min-width: 482px) {
+  .adventure {
+    top: 20%;
+  }
+}

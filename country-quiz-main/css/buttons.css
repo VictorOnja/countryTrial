@@ -1,0 +1,189 @@
+/* BUTTONS */
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.retry-button {
+  max-width: calc(150px / 2);
+  border: 2px solid #1d355d;
+  background-color: transparent;
+  color: #1d355d;
+  font-weight: 600;
+}
+
+.retry-button:hover {
+  background-color: #1d355d;
+  color: #ffffff;
+}
+
+.lost,
+.nextButton {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.next,
+.lost,
+.nextButton,
+.button-answer,
+.retry-button {
+  border-radius: calc(12px / 2);
+}
+
+.lost,
+.nextButton,
+.button-answer {
+  width: 100%;
+  min-height: calc(56px / 2);
+}
+
+.next,
+.lost,
+.nextButton {
+  text-align: center;
+  max-width: calc(116px / 2);
+}
+
+.next,
+.button-answer,
+.retry-button {
+  font-size: 12px;
+}
+
+.letter,
+.button-answer,
+.next {
+  font-weight: 500;
+}
+
+.button-answer:hover,
+.next,
+.lost,
+.nextButton {
+  background-color: #f9a826;
+  border: solid 2px #f9a826;
+}
+
+.next {
+  align-self: flex-end;
+}
+
+.button-answer:hover,
+.false,
+.true,
+.true:hover,
+.false:hover,
+.retry-button,
+.retry-button:hover {
+  transition: all ease-in 0.2s;
+}
+
+.false,
+.true,
+.true:hover,
+.false:hover {
+  display: flex;
+  align-items: center;
+}
+
+.button-answer,
+.button-answer:disabled:hover {
+  background-color: #ffffff;
+  text-align: start;
+  color: rgba(96, 102, 208, 0.8);
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  display: flex;
+  align-items: center;
+  min-width: 133px;
+}
+
+.true,
+.true:disabled:hover {
+  background-color: #60bf88;
+  border: solid 2px #60bf88;
+}
+
+.false,
+.false:disabled:hover {
+  background-color: #ea8282;
+  border: solid #ea8282 2px;
+}
+
+.button-answer2 {
+  background-color: #ffffff;
+  text-align: start;
+  max-width: 400px;
+  color: rgba(96, 102, 208, 0.8);
+  border: 2px solid rgba(96, 102, 208);
+}
+
+.next,
+.lost,
+.nextButton,
+.button-answer:hover,
+.false,
+.true,
+.true:disabled:hover,
+.false:disabled:hover,
+.retry-button:hover {
+  color: #ffffff;
+}
+
+.retry-button,
+.next {
+  min-height: 45px;
+}
+
+.letter {
+  font-size: 18px;
+  margin: 10px;
+}
+
+@media (min-width: 350px) {
+  .next,
+  .button-answer,
+  .retry-button {
+    font-size: 18px;
+  }
+
+  .next,
+  .lost,
+  .nextButton {
+    height: 56px;
+  }
+
+  .next,
+  .lost,
+  .nextButton,
+  .button-answer,
+  .retry-button {
+    border-radius: 12px;
+  }
+
+  .next,
+  .lost,
+  .nextButton {
+    max-width: 116px;
+  }
+
+  .retry-button {
+    max-width: 209px;
+    min-height: 62px;
+  }
+
+  .letter {
+    font-size: 24px;
+    margin-left: 19px;
+    margin-right: 46px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+}

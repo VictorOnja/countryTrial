@@ -1,0 +1,22 @@
+
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding-bottom: 29px;
+}
+
+footer a {
+    font-family: "myMontserrat", Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+    color: #F2F2F2;
+    font-weight: 600;
+}
+
+footer b {
+    text-decoration: underline;
+}
